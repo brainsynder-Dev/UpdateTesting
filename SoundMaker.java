@@ -15,6 +15,7 @@ import java.lang.annotation.Annotation;
  * This class translates sounds to and from 1.8 and 1.9 spigot versions depending on what the server is running.
  */
 public enum SoundMaker {
+    // ---- START ---- //
     @EnumVersion(version = ServerVersion.v1_8_R3) AMBIENT_CAVE("AMBIENCE_CAVE"),
     @EnumVersion(version = ServerVersion.v1_8_R3) BLOCK_ANVIL_BREAK("ANVIL_BREAK"),
     @EnumVersion(version = ServerVersion.v1_8_R3) BLOCK_ANVIL_DESTROY("ANVIL_BREAK"),
@@ -240,7 +241,8 @@ public enum SoundMaker {
     @EnumVersion(version = ServerVersion.v1_8_R3) ENTITY_ZOMBIE_STEP("ZOMBIE_WALK"),
     @EnumVersion(version = ServerVersion.v1_8_R3) UI_BUTTON_CLICK("CLICK"),
     @EnumVersion(version = ServerVersion.v1_8_R3) WEATHER_RAIN("AMBIENCE_RAIN"),
-    @EnumVersion(version = ServerVersion.v1_8_R3) WEATHER_RAIN_ABOVE("AMBIENCE_THUNDER");
+    @EnumVersion(version = ServerVersion.v1_8_R3) WEATHER_RAIN_ABOVE("AMBIENCE_THUNDER")
+    ; // ---- END ---- //
 
     private String soundname = name();
     private String v1_8_SoundName = "";
