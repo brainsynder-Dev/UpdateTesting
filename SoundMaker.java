@@ -461,7 +461,10 @@ public enum SoundMaker {
     @EnumVersion(version = ServerVersion.v1_9_R1) RECORD_STAL,
     @EnumVersion(version = ServerVersion.v1_9_R1) RECORD_STRAD,
     @EnumVersion(version = ServerVersion.v1_9_R1) RECORD_WAIT,
-    @EnumVersion(version = ServerVersion.v1_9_R1) RECORD_WARD
+    @EnumVersion(version = ServerVersion.v1_9_R1) RECORD_WARD,
+
+
+    // ---- Sounds added in v1_9_R1 ---- //
     ; // ---- END ---- //
 
     private String soundname = name();
