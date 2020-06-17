@@ -484,7 +484,41 @@ public enum SoundMaker {
     @EnumVersion(version = ServerVersion.v1_10_R1) ENTITY_WITHER_SKELETON_DEATH,
     @EnumVersion(version = ServerVersion.v1_10_R1) ENTITY_WITHER_SKELETON_HURT,
     @EnumVersion(version = ServerVersion.v1_10_R1) ENTITY_WITHER_SKELETON_STEP,
-    @EnumVersion(version = ServerVersion.v1_10_R1) ITEM_ELYTRA_FLYING
+    @EnumVersion(version = ServerVersion.v1_10_R1) ITEM_ELYTRA_FLYING,
+
+
+    // ---- Sounds added in v1_11_R1 ---- //
+    @EnumVersion(version = ServerVersion.v1_11_R1) BLOCK_SHULKER_BOX_CLOSE,
+    @EnumVersion(version = ServerVersion.v1_11_R1) BLOCK_SHULKER_BOX_OPEN,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_ELDER_GUARDIAN_FLOP,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_EVOCATION_FANGS_ATTACK,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_EVOCATION_ILLAGER_AMBIENT,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_EVOCATION_ILLAGER_CAST_SPELL,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_EVOCATION_ILLAGER_DEATH,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_EVOCATION_ILLAGER_HURT,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_EVOCATION_ILLAGER_PREPARE_ATTACK,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_EVOCATION_ILLAGER_PREPARE_SUMMON,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_EVOCATION_ILLAGER_PREPARE_WOLOLO,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_LLAMA_AMBIENT,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_LLAMA_ANGRY,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_LLAMA_CHEST,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_LLAMA_DEATH,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_LLAMA_EAT,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_LLAMA_HURT,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_LLAMA_SPIT,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_LLAMA_STEP,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_LLAMA_SWAG,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_MULE_CHEST,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_VEX_AMBIENT,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_VEX_CHARGE,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_VEX_DEATH,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_VEX_HURT,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_VINDICATION_ILLAGER_AMBIENT,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_VINDICATION_ILLAGER_DEATH,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ENTITY_VINDICATION_ILLAGER_HURT,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ITEM_ARMOR_EQUIP_ELYTRA,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ITEM_BOTTLE_EMPTY,
+    @EnumVersion(version = ServerVersion.v1_11_R1) ITEM_TOTEM_USE
     ; // ---- END ---- //
 
     private String soundname = name();
