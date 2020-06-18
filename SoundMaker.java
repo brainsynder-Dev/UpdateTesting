@@ -912,7 +912,29 @@ public enum SoundMaker {
     @EnumVersion(version = ServerVersion.v1_14_R1) ENTITY_WANDERING_TRADER_REAPPEARED,
     @EnumVersion(version = ServerVersion.v1_14_R1) ENTITY_WANDERING_TRADER_TRADE,
     @EnumVersion(version = ServerVersion.v1_14_R1) ENTITY_WANDERING_TRADER_YES,
-    @EnumVersion(version = ServerVersion.v1_14_R1) ENTITY_WITCH_CELEBRATE
+    @EnumVersion(version = ServerVersion.v1_14_R1) ENTITY_WITCH_CELEBRATE,
+
+
+    // ---- Sounds added in v1_15_R1 ---- //
+    @EnumVersion(version = ServerVersion.v1_15_R1) BLOCK_BEEHIVE_DRIP,
+    @EnumVersion(version = ServerVersion.v1_15_R1) BLOCK_BEEHIVE_ENTER,
+    @EnumVersion(version = ServerVersion.v1_15_R1) BLOCK_BEEHIVE_EXIT,
+    @EnumVersion(version = ServerVersion.v1_15_R1) BLOCK_BEEHIVE_SHEAR,
+    @EnumVersion(version = ServerVersion.v1_15_R1) BLOCK_BEEHIVE_WORK,
+    @EnumVersion(version = ServerVersion.v1_15_R1) BLOCK_HONEY_BLOCK_BREAK,
+    @EnumVersion(version = ServerVersion.v1_15_R1) BLOCK_HONEY_BLOCK_FALL,
+    @EnumVersion(version = ServerVersion.v1_15_R1) BLOCK_HONEY_BLOCK_HIT,
+    @EnumVersion(version = ServerVersion.v1_15_R1) BLOCK_HONEY_BLOCK_PLACE,
+    @EnumVersion(version = ServerVersion.v1_15_R1) BLOCK_HONEY_BLOCK_SLIDE,
+    @EnumVersion(version = ServerVersion.v1_15_R1) BLOCK_HONEY_BLOCK_STEP,
+    @EnumVersion(version = ServerVersion.v1_15_R1) ENTITY_BEE_DEATH,
+    @EnumVersion(version = ServerVersion.v1_15_R1) ENTITY_BEE_HURT,
+    @EnumVersion(version = ServerVersion.v1_15_R1) ENTITY_BEE_LOOP,
+    @EnumVersion(version = ServerVersion.v1_15_R1) ENTITY_BEE_LOOP_AGGRESSIVE,
+    @EnumVersion(version = ServerVersion.v1_15_R1) ENTITY_BEE_POLLINATE,
+    @EnumVersion(version = ServerVersion.v1_15_R1) ENTITY_BEE_STING,
+    @EnumVersion(version = ServerVersion.v1_15_R1) ENTITY_IRON_GOLEM_DAMAGE,
+    @EnumVersion(version = ServerVersion.v1_15_R1) ENTITY_IRON_GOLEM_REPAIR
     ; // ---- END ---- //
 
     private String soundname = name();
