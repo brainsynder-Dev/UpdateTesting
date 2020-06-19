@@ -60,7 +60,7 @@ public enum Particle {
 
 
     // ---- Particles added in v1_11_R1 ---- //
-    @EnumVersion(version = ServerVersion.v1_11_R1) FALLING_DUST (true),
+    @EnumVersion(version = ServerVersion.v1_11_R1) FALLING_DUST(true),
     @EnumVersion(version = ServerVersion.v1_11_R1) SPIT,
     @EnumVersion(version = ServerVersion.v1_11_R1) TOTEM
     ; // ---- END ---- //
