@@ -56,12 +56,7 @@ public enum Particle {
     @EnumVersion(version = ServerVersion.v1_9_R1) DAMAGE_INDICATOR,
     @EnumVersion(version = ServerVersion.v1_9_R1) DRAGON_BREATH,
     @EnumVersion(version = ServerVersion.v1_9_R1) END_ROD,
-    @EnumVersion(version = ServerVersion.v1_9_R1) SWEEP_ATTACK,
-
-
-    // ---- Particles added in v1_11_R1 ---- //
-    @EnumVersion(version = ServerVersion.v1_11_R1) SPIT,
-    @EnumVersion(version = ServerVersion.v1_11_R1) TOTEM
+    @EnumVersion(version = ServerVersion.v1_9_R1) SWEEP_ATTACK
     ; // ---- END ---- //
 
     private final String name;
@@ -170,3 +165,6 @@ public enum Particle {
         return false;
     }
 }
+
+
+
