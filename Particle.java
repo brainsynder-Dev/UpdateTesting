@@ -22,10 +22,10 @@ public enum Particle {
     @EnumVersion(version = ServerVersion.v1_8_R3) EXPLOSION_NORMAL("explode", 0),
     @EnumVersion(version = ServerVersion.v1_8_R3) FIREWORKS_SPARK("fireworksSpark", 3),
     @EnumVersion(version = ServerVersion.v1_8_R3) FLAME("flame", 26),
-    @EnumVersion(version = ServerVersion.v1_8_R3) FOOTSTEP("footstep", 28),
+    @EnumVersion(version = ServerVersion.v1_8_R3, maxVersion = ServerVersion.v1_12_R1) @Deprecated FOOTSTEP("footstep", 28),  /*  Was removed in 1.13 */
     @EnumVersion(version = ServerVersion.v1_8_R3) HEART("heart", 34),
     @EnumVersion(version = ServerVersion.v1_8_R3) ITEM_CRACK(true, "iconcrack_", 36),
-    @EnumVersion(version = ServerVersion.v1_8_R3) ITEM_TAKE("take", 40),
+    @EnumVersion(version = ServerVersion.v1_8_R3, maxVersion = ServerVersion.v1_12_R1) @Deprecated ITEM_TAKE("take", 40),  /*  Was removed in 1.13 */
     @EnumVersion(version = ServerVersion.v1_8_R3) LAVA("lava", 27),
     @EnumVersion(version = ServerVersion.v1_8_R3) MOB_APPEARANCE("mobappearance", 41),
     @EnumVersion(version = ServerVersion.v1_8_R3) NOTE("note", 23),
@@ -49,7 +49,16 @@ public enum Particle {
     @EnumVersion(version = ServerVersion.v1_8_R3) WATER_BUBBLE("bubble", 4),
     @EnumVersion(version = ServerVersion.v1_8_R3) WATER_DROP("droplet", 39),
     @EnumVersion(version = ServerVersion.v1_8_R3) WATER_SPLASH("splash", 5),
-    @EnumVersion(version = ServerVersion.v1_8_R3) WATER_WAKE("wake", 6)
+    @EnumVersion(version = ServerVersion.v1_8_R3) WATER_WAKE("wake", 6),
+
+
+    // ---- Particles added in v1_9_R1 ---- //
+    @EnumVersion(version = ServerVersion.v1_9_R1) DAMAGE_INDICATOR,
+    @EnumVersion(version = ServerVersion.v1_9_R1) DRAGON_BREATH,
+    @EnumVersion(version = ServerVersion.v1_9_R1) END_ROD,
+    @EnumVersion(version = ServerVersion.v1_9_R1) FOOTSTEP,
+    @EnumVersion(version = ServerVersion.v1_9_R1) ITEM_TAKE,
+    @EnumVersion(version = ServerVersion.v1_9_R1) SWEEP_ATTACK
     ; // ---- END ---- //
 
     private final String name;
