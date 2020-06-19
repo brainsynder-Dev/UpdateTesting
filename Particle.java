@@ -49,7 +49,14 @@ public enum Particle {
     @EnumVersion(version = ServerVersion.v1_8_R3) WATER_BUBBLE("bubble", 4),
     @EnumVersion(version = ServerVersion.v1_8_R3) WATER_DROP("droplet", 39),
     @EnumVersion(version = ServerVersion.v1_8_R3) WATER_SPLASH("splash", 5),
-    @EnumVersion(version = ServerVersion.v1_8_R3) WATER_WAKE("wake", 6)
+    @EnumVersion(version = ServerVersion.v1_8_R3) WATER_WAKE("wake", 6),
+
+
+    // ---- Particles added in v1_9_R1 ---- //
+    @EnumVersion(version = ServerVersion.v1_9_R1) DAMAGE_INDICATOR,
+    @EnumVersion(version = ServerVersion.v1_9_R1) DRAGON_BREATH,
+    @EnumVersion(version = ServerVersion.v1_9_R1) END_ROD,
+    @EnumVersion(version = ServerVersion.v1_9_R1) SWEEP_ATTACK
     ; // ---- END ---- //
 
     private final String name;
