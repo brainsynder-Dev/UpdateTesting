@@ -62,7 +62,19 @@ public enum Particle {
     // ---- Particles added in v1_11_R1 ---- //
     @EnumVersion(version = ServerVersion.v1_11_R1) FALLING_DUST(true),
     @EnumVersion(version = ServerVersion.v1_11_R1) SPIT,
-    @EnumVersion(version = ServerVersion.v1_11_R1) TOTEM
+    @EnumVersion(version = ServerVersion.v1_11_R1) TOTEM,
+
+
+    // ---- Particles added in v1_13_R1 ---- //
+    @EnumVersion(version = ServerVersion.v1_13_R1) BUBBLE_COLUMN_UP,
+    @EnumVersion(version = ServerVersion.v1_13_R1) BUBBLE_POP,
+    @EnumVersion(version = ServerVersion.v1_13_R1) CURRENT_DOWN,
+    @EnumVersion(version = ServerVersion.v1_13_R1) DOLPHIN,
+    @EnumVersion(version = ServerVersion.v1_13_R1) LEGACY_BLOCK_CRACK(true),
+    @EnumVersion(version = ServerVersion.v1_13_R1) LEGACY_BLOCK_DUST(true),
+    @EnumVersion(version = ServerVersion.v1_13_R1) LEGACY_FALLING_DUST(true),
+    @EnumVersion(version = ServerVersion.v1_13_R1) NAUTILUS,
+    @EnumVersion(version = ServerVersion.v1_13_R1) SQUID_INK
     ; // ---- END ---- //
 
     private final String name;
