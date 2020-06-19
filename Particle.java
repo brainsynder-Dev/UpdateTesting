@@ -85,7 +85,14 @@ public enum Particle {
     @EnumVersion(version = ServerVersion.v1_14_R1) FALLING_WATER,
     @EnumVersion(version = ServerVersion.v1_14_R1) FLASH,
     @EnumVersion(version = ServerVersion.v1_14_R1) LANDING_LAVA,
-    @EnumVersion(version = ServerVersion.v1_14_R1) SNEEZE
+    @EnumVersion(version = ServerVersion.v1_14_R1) SNEEZE,
+
+
+    // ---- Particles added in v1_15_R1 ---- //
+    @EnumVersion(version = ServerVersion.v1_15_R1) DRIPPING_HONEY,
+    @EnumVersion(version = ServerVersion.v1_15_R1) FALLING_HONEY,
+    @EnumVersion(version = ServerVersion.v1_15_R1) FALLING_NECTAR,
+    @EnumVersion(version = ServerVersion.v1_15_R1) LANDING_HONEY
     ; // ---- END ---- //
 
     private final String name;
