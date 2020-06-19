@@ -74,7 +74,18 @@ public enum Particle {
     @EnumVersion(version = ServerVersion.v1_13_R1) LEGACY_BLOCK_DUST(true),
     @EnumVersion(version = ServerVersion.v1_13_R1) LEGACY_FALLING_DUST(true),
     @EnumVersion(version = ServerVersion.v1_13_R1) NAUTILUS,
-    @EnumVersion(version = ServerVersion.v1_13_R1) SQUID_INK
+    @EnumVersion(version = ServerVersion.v1_13_R1) SQUID_INK,
+
+
+    // ---- Particles added in v1_14_R1 ---- //
+    @EnumVersion(version = ServerVersion.v1_14_R1) CAMPFIRE_COSY_SMOKE,
+    @EnumVersion(version = ServerVersion.v1_14_R1) CAMPFIRE_SIGNAL_SMOKE,
+    @EnumVersion(version = ServerVersion.v1_14_R1) COMPOSTER,
+    @EnumVersion(version = ServerVersion.v1_14_R1) FALLING_LAVA,
+    @EnumVersion(version = ServerVersion.v1_14_R1) FALLING_WATER,
+    @EnumVersion(version = ServerVersion.v1_14_R1) FLASH,
+    @EnumVersion(version = ServerVersion.v1_14_R1) LANDING_LAVA,
+    @EnumVersion(version = ServerVersion.v1_14_R1) SNEEZE
     ; // ---- END ---- //
 
     private final String name;
