@@ -59,6 +59,10 @@ public enum Particle {
     Particle() {
         this.name = name().toLowerCase();
     }
+    Particle(boolean requiresData) {
+        this.name = name().toLowerCase();
+        this.requiresData = requiresData;
+    }
     Particle(String name) {
         this.name = ((ServerVersion.getVersion() == ServerVersion.v1_13_R1) ? name().toLowerCase() : name);
     }
